@@ -4,7 +4,7 @@
  *
  * "Concatenation" means the two arrays are joined or glued together, end-to-end.
  *
- * JavaScript array's have a built-in concatenation method. Don't use it!
+ * JavaScript array's have a built-in concatenation method. Don't use it! Dam you Jesse >:(
  * The goal is to better understand how concatenation works, not navigate
  * the JavaScript documentation.
  *
@@ -22,7 +22,7 @@
  * @returns {object[]} The concatenation of the two given arrays
  */
 function concat(leftArray, rightArray) {
-  // This is your job. :)
+  
 }
 
 if (require.main === module) {

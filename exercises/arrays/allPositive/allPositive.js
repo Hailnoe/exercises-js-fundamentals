@@ -11,13 +11,20 @@
  * @returns {boolean} True if every number in the input array is positive
  *   and false otherwise.
  */
-function allPositive(array) {
-  // This is your job. :)
+var array = [7, 5, -5]
+
+function allPositive() {
+  let result = console.log(value);
+  array.every(function(value) {
+   return value > 0
+  })
 }
+
+allPositive(array)
 
 if (require.main === module) {
   console.log('Running sanity checks for allPositive:');
-
+  let result = console.log(value);
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
