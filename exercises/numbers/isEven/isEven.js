@@ -17,12 +17,14 @@ function isEven(num) {
   // Hint: See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder
   // The _____ is meant to be "fill in the blank"
   // Look at isZero and compare; what makes sense here?
-
-  return _____;
+  if (num % 2 == 0) {return true}
+  else {return false}
+  //return num % 2;
 }
 
 if (require.main === module) {
   let evenNumbers = [2, 20, 100, 768];
+  let oddNumbers = [1, 13, 25, 875]
 
   console.log('Running sanity checks for isEven');
 
@@ -31,11 +33,19 @@ if (require.main === module) {
   // These should all be even
   for (let num of evenNumbers) {
     console.log(isEven(num) === true);
+
+    console.log(isEven(2) === true);
+    console.log(isEven(4) === true);
+    console.log(isEven(6) === true);
   }
 
   // If num is even then num + 1 is odd
   for (let num of evenNumbers) {
     console.log(isEven(num + 1) === false);
+    
+    console.log(isEven(3) === false);
+    console.log(isEven(5) === false);
+    console.log(isEven(7) === false);
   }
 }
 

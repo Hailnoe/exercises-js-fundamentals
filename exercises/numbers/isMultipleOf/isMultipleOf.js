@@ -13,11 +13,10 @@
  * @returns {boolean} True if n is a multiple of d and false otherwise
  */
 function isMultipleOf(n, d) {
-  // This is your job. :)
-
-  // Consider handling two cases separately:
-  //   1. When d === 0
-  //   2. When d !== 0
+  if (d === 0) {
+    return n === 0; 
+  }
+  return n % d === 0;
 }
 
 if (require.main === module) {
@@ -27,6 +26,10 @@ if (require.main === module) {
     their presence here makes it harder, not easier to understand what's going on.
 
     Think of 1-3 ways you might address this.
+    1) create a more efficient test.
+    2) anticipate problems within the code with numerical outcomes and design your tests around them.
+    3) use fewer lines in each test.
+    4) outsource testing to a partner.
   */
   console.log('Running sanity checks for isMultipleOf:');
 
