@@ -10,23 +10,28 @@
  * @param {number} exponent The exponent (a positive integer)
  * @returns {number} The base raised to the power of the exopnent
  */
-function power(base, exponent) {
-  /*
-    Your code goes here.
+// for loops on w3schools uses examples with arrays which made this more trouble than need be.
+function power(b, e) {
+  if (b === 0 ) {
+    return console.log(0)
+  }
+  if (e === 0) {
+    return console.log(1)
+  } else {
+    var x = 1;
+    for(var i=1; i<=e; i++){
+        x = x * b;
+    }
+    return x;
 
-    Remember, exponent is a _positive integer_.
+  } 
+} 
 
-    JavaScript has a built-in Math.pow function; don't use it!
-    Write your own version. Remember, exponent is guaranteed to be a positive integer.
-
-    That means you don't have to deal with, e.g., power(2, 1.5).
-  */
-}
 
 if (require.main === module) {
   console.log('Running sanity checks for power:');
 
-  console.log(power(1, 1) === 1);
+  console.log(power(1, 1) === 1 );
   console.log(power(1, 2) === 1);
 
   console.log(power(-1, 1) === -1);

@@ -21,10 +21,11 @@
  * @param {number} base - The base
  * @returns {boolean} True if `num` is a power of `base` and false otherwise.
  */
+// does not work will need help early tomorrow
 function isPowerOf(num, base) {
-  // Your code here
-  // Remember, you can assume that num is a positive integer.
-}
+  
+} 
+
 
 if (require.main === module) {
   console.log('Running sanity checks for isPowerOf:');
