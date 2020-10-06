@@ -15,14 +15,28 @@
  * @param {string} string - The string to replace a character in
  * @returns {string} A lowercase copy of the input string
  */
-
+//doesnt work but results are funny lolol
 function toTitleCase(string) {
-  // This is your job. :)
-}
+  var v =''
+  for (let char of string)  {
+    string.split(" ");
 
+    var a=string.slice(0,1) 
+  
+    var b=string.slice(1)
+  
+    v += a.toUpperCase(a)+b.toLowerCase(b)
+    }
+return v
+}
+var x = 'comMing To a THEAter'
+var y = 'NEar you'
+var z = 'complete anarchy boommmm'
 if (require.main === module) {
   console.log('Running sanity checks for toTitleCase:');
-
+  console.log(toTitleCase(x))
+  console.log(toTitleCase(y))
+  console.log(toTitleCase(z))
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

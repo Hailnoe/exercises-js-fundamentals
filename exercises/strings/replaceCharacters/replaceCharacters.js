@@ -14,11 +14,9 @@
 function replaceCharacters(string, replacementDict) {
   var v =''
   for (let char of string) {
-    if (char===target) {
-      char = replaceWith
-      v+=char
+    if (replacementDict[char] !== undefined) {
+      v+=replacementDict[char]
     }
-
     else {
       v+=char
     }
@@ -32,7 +30,7 @@ var z= 'hospis'
 
 if (require.main === module) {
   console.log('Running sanity checks for replaceCharacters:');
-
+ console.log(replaceCharacters('hello', { 'h': 'y', 'l': '8' })); // => 'ye88o'
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
