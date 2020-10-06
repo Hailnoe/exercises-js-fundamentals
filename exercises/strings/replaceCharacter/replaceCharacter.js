@@ -13,12 +13,27 @@
  */
 
 function replaceCharacter(string, target, replaceWith) {
-  // This is your job. :)
+  var v =''
+  for (let char of string) {
+    if (char===target) {
+      char = replaceWith
+      v+=char
+    }
+    else {
+      v+=char
+    }
+  }
+return v
 }
 
+var x = 'hello'
+var y = 'communism'
+var z = 'killer'
 if (require.main === module) {
   console.log('Running sanity checks for replaceCharacter:');
-
+  console.log(replaceCharacter(x,'l','8'))
+  console.log(replaceCharacter(y,'m','3'))
+  console.log(replaceCharacter(z,'l','7'))
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

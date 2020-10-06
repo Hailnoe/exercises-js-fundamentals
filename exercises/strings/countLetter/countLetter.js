@@ -22,12 +22,26 @@
  */
 
 function countLetter(string, letter) {
-  // This is your job. :)
+  
+  var s= 0
+for (char of string) {
+  
+  if (letter === char) {
+    s++;
+  }
 }
+return s 
+}
+
+var x = "lllllxlllll";
+var y = "lxl";
+var z = "l               l e e e ."
 
 if (require.main === module) {
   console.log('Running sanity checks for countLetter:');
-
+  console.log(countLetter(x,'l') === 10)
+  console.log(countLetter(y,'l') === 2)
+  console.log(countLetter(z,'e') === 3)
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

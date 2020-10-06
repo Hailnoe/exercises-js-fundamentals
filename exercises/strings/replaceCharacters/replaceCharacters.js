@@ -12,8 +12,23 @@
  */
 
 function replaceCharacters(string, replacementDict) {
-  // This is your job. :)
+  var v =''
+  for (let char of string) {
+    if (char===target) {
+      char = replaceWith
+      v+=char
+    }
+
+    else {
+      v+=char
+    }
+  }
+return v
 }
+
+var x= 'howdy'
+var y= 'hello'
+var z= 'hospis'
 
 if (require.main === module) {
   console.log('Running sanity checks for replaceCharacters:');

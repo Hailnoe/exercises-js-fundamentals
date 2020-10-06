@@ -37,7 +37,7 @@ Here are some quick links to the different sections in the JavaScript crash cour
 1. [remainderOf](exercises/numbers/remainderOf)
 1. [isMultipleOf](exercises/numbers/isMultipleOf)
 1. [power](exercises/numbers/power)
-1. [isPowerOf](exercises/numbers/isPowerOf)
+1. [isPowerOf](exercises/numbers/isPowerOf) // completed up to here
 1. [isPowerOfTwo](exercises/numbers/isPowerOfTwo)
 1. [isPerfectSquare](exercises/numbers/isPerfectSquare)
 1. [factors](exercises/numbers/factors)
