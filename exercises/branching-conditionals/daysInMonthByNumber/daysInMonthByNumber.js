@@ -15,32 +15,40 @@
  *   and 12 for December.
  * @return {number} The number of days in the given month
  */
+var daysInMonthdic= {1:'31', 2:'29', 3:'31',4:'30', 5:'31', 6:'31', 7:'31', 8:'31', 9:'30', 10:'31', 11:'30', 12:'31'}
+
 function daysInMonthByNumber(monthNum) {
   if (!Number.isInteger(monthNum) || monthNum < 1 || monthNum > 12) {
     throw new Error(`Expected a month number from 1-12, received: ${monthNum}`);
   }
-
-  // This is your job. :)
+  else {
+    var a =daysInMonthdic[monthNum]
+  }
+return a
 }
-
+var x= 1
+var y= 6
+var z= 11
 if (require.main === module) {
   console.log('Running sanity checks for daysInMonthByNumber:');
-
+  console.log(daysInMonthByNumber(x))
+  console.log(daysInMonthByNumber(y))
+  console.log(daysInMonthByNumber(z))
   // The _____ is meant to be "fill in the blank"
   // Loop up how many days are in each month.
 
-  console.log(daysInMonthByNumber(1) === _____);
-  console.log(daysInMonthByNumber(2) === _____);
-  console.log(daysInMonthByNumber(3) === _____);
-  console.log(daysInMonthByNumber(4) === _____);
-  console.log(daysInMonthByNumber(5) === _____);
-  console.log(daysInMonthByNumber(6) === _____);
-  console.log(daysInMonthByNumber(7) === _____);
-  console.log(daysInMonthByNumber(8) === _____);
-  console.log(daysInMonthByNumber(9) === _____);
-  console.log(daysInMonthByNumber(10) === _____);
-  console.log(daysInMonthByNumber(11) === _____);
-  console.log(daysInMonthByNumber(12) === _____);
+  console.log(daysInMonthByNumber(1) == 31);
+  console.log(daysInMonthByNumber(2) == 29);
+  console.log(daysInMonthByNumber(3) == 31);
+  console.log(daysInMonthByNumber(4) == 30);
+  console.log(daysInMonthByNumber(5) == 31);
+  console.log(daysInMonthByNumber(6) == 31);
+  console.log(daysInMonthByNumber(7) == 31);
+  console.log(daysInMonthByNumber(8) == 31);
+  console.log(daysInMonthByNumber(9) == 30);
+  console.log(daysInMonthByNumber(10) == 31);
+  console.log(daysInMonthByNumber(11) == 30);
+  console.log(daysInMonthByNumber(12) == 31);
 }
 
 module.exports = daysInMonthByNumber;
