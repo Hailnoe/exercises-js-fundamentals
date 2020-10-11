@@ -18,7 +18,7 @@ let helpers = require('../printHelpers');
  * ###
  *
  * @example
- * printSolidPyramid(4); // Prints the following:
+ * printSolidPyramid(5); // Prints the following:
  *     #
  *    ###
  *   #####
@@ -36,8 +36,9 @@ function printSolidPyramid(height) {
     Work through 3-4 examples by hand and try to notice a pattern.
   */
   for (let i = 0; i < height; i++) {
-    let numSpaces = _____;
-    let numChars = _____;
+    
+    let numSpaces = height-i ;
+    let numChars = 1+(2*i);
 
     helpers.printCountTimes(' ', numSpaces);
     helpers.printCountTimes('#', numChars);

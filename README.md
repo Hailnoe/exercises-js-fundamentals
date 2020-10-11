@@ -29,15 +29,15 @@ Here are some quick links to the different sections in the JavaScript crash cour
 
 ## Numbers
 
-1. [isZero](exercises/numbers/isZero)
-1. [isPositive](exercises/numbers/isPositive)
-1. [isNegative](exercises/numbers/isNegative)
-1. [isEven](exercises/numbers/isEven)
-1. [isOdd](exercises/numbers/isOdd)
-1. [remainderOf](exercises/numbers/remainderOf)
-1. [isMultipleOf](exercises/numbers/isMultipleOf)
-1. [power](exercises/numbers/power)
-1. [isPowerOf](exercises/numbers/isPowerOf) // completed up to here
+1. [isZero](exercises/numbers/isZero)(done)
+1. [isPositive](exercises/numbers/isPositive)(done)
+1. [isNegative](exercises/numbers/isNegative)(done)
+1. [isEven](exercises/numbers/isEven)(done)
+1. [isOdd](exercises/numbers/isOdd)(done)
+1. [remainderOf](exercises/numbers/remainderOf)(done)
+1. [isMultipleOf](exercises/numbers/isMultipleOf)(done)
+1. [power](exercises/numbers/power)(done)
+1. [isPowerOf](exercises/numbers/isPowerOf)// completed up to here
 1. [isPowerOfTwo](exercises/numbers/isPowerOfTwo)
 1. [isPerfectSquare](exercises/numbers/isPerfectSquare)
 1. [factors](exercises/numbers/factors)
@@ -51,34 +51,34 @@ Here are some quick links to the different sections in the JavaScript crash cour
 
 ## Strings
 
-1. [countLetter](exercises/strings/countLetter)
-1. [capitalize](exercises/strings/capitalize)
-1. [longestWord](exercises/strings/longestWord)
-1. [shortestWord](exercises/strings/shortestWord)
-1. [replaceCharacter](exercises/strings/replaceCharacter)
-1. [replaceCharacters](exercises/strings/replaceCharacters)
-1. [toLowercase](exercises/strings/toLowercase)
-1. [toUppercase](exercises/strings/toUppercase)
-1. [toSnakeCase](exercises/strings/toSnakeCase)
-1. [toTitleCase](exercises/strings/toTitleCase)
+1. [countLetter](exercises/strings/countLetter)(done)
+1. [capitalize](exercises/strings/capitalize)(done)
+1. [longestWord](exercises/strings/longestWord)(done)
+1. [shortestWord](exercises/strings/shortestWord)(done)
+1. [replaceCharacter](exercises/strings/replaceCharacter)(done)
+1. [replaceCharacters](exercises/strings/replaceCharacters)(done)
+1. [toLowercase](exercises/strings/toLowercase)(done)
+1. [toUppercase](exercises/strings/toUppercase)(done)
+1. [toSnakeCase](exercises/strings/toSnakeCase)(done)
+1. [toTitleCase](exercises/strings/toTitleCase)// completed up to here
 1. [rot13](exercises/strings/rot13)
 1. [rotN](exercises/strings/rotN)
 
 ## Branching / Conditionals
 
-1. [daysInMonthByNumber](exercises/branching-conditionals/daysInMonthByNumber)
-1. [letterGrade](exercises/branching-conditionals/letterGrade)
-1. [isValidTriangle](exercises/branching-conditionals/isValidTriangle)
-1. [triangleType](exercises/branching-conditionals/triangleType)
+1. [daysInMonthByNumber](exercises/branching-conditionals/daysInMonthByNumber)(done)
+1. [letterGrade](exercises/branching-conditionals/letterGrade)(done)
+1. [isValidTriangle](exercises/branching-conditionals/isValidTriangle)(done)
+1. [triangleType](exercises/branching-conditionals/triangleType)// completed up to here
 1. [rockPaperScissorsWinner](exercises/branching-conditionals/rockPaperScissorsWinner)
 
 ## Patterns to Print
 
-1. [printSolidSquare](exercises/patterns/printSolidSquare)
-1. [printSolidRightTriangle](exercises/patterns/printSolidRightTriangle)
-1. [printSolidPyramid](exercises/patterns/printSolidPyramid)
-1. [printHollowSquare](exercises/patterns/printHollowSquare)
-1. [printHollowRightTriangle](exercises/patterns/printHollowRightTriangle)
+1. [printSolidSquare](exercises/patterns/printSolidSquare)(done)
+1. [printSolidRightTriangle](exercises/patterns/printSolidRightTriangle)(done)
+1. [printSolidPyramid](exercises/patterns/printSolidPyramid)(done)
+1. [printHollowSquare](exercises/patterns/printHollowSquare)(done)<---- kind of?
+1. [printHollowRightTriangle](exercises/patterns/printHollowRightTriangle)// completed to here
 1. [printHollowPyramid](exercises/patterns/printHollowPyramid)
 1. [printInvertedSolidRightTriangle](exercises/patterns/printInvertedSolidRightTriangle)
 1. [printMultiplicationTable](exercises/patterns/printMultiplicationTable)
